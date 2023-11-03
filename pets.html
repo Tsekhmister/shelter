@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>Shelter</title>
+  </head>
+
+  <body>
+    <div class="header-container">
+      <header class="header header-pets">
+        <div class="logo">
+          <a href="index.html">
+            <p class="logo-title pets-logo-title">Cozy House</p>
+          </a>
+          <p class="logo-subtitle pets-logo-subtitle">
+            Shelter for pets in Boston
+          </p>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li>
+              <a href="index.html">
+                <div class="nav-item pets-nav-item">About the shelter</div>
+              </a>
+            </li>
+            <li>
+              <a href="pets.html">
+                <div class="nav-item pets-nav-item active pets-active">
+                  Our pets
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="./index.html#help">
+                <div class="nav-item pets-nav-item">Help the shelter</div>
+              </a>
+            </li>
+            <li>
+              <a href="#footer">
+                <div class="nav-item pets-nav-item">Contacts</div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger-menu burger-menu-pets">
+          <div class="burger-line burger-line-pets"></div>
+          <div class="burger-line burger-line-pets"></div>
+          <div class="burger-line burger-line-pets"></div>
+        </div>
+      </header>
+      <div class="burger-menu-navigation">
+        <nav class="nav nav-burger-menu">
+          <ul class="nav-list nav-burger-menu-list">
+            <li>
+              <a href="#">
+                <div class="nav-item active nav-burger-menu-item">
+                  About the shelter
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="pets.html">
+                <div class="nav-item nav-burger-menu-item">Our pets</div>
+              </a>
+            </li>
+            <li>
+              <a href="#help">
+                <div class="nav-item nav-burger-menu-item">
+                  Help the shelter
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#footer">
+                <div class="nav-item nav-burger-menu-item">Contacts</div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="pets-main-container">
+      <main class="main pets-main">
+        <h1 class="pets-main-title">
+          Our friends who <br />
+          are looking for a house
+        </h1>
+        <div class="pets-slider">
+          <div class="pets-slider-line">
+          </div>
+        </div>
+        <div class="button-container">
+          <div class="button button-double-left">
+            <div class="left-arrow">&lt;&lt;</div>
+          </div>
+
+          <div class="button button-left">
+            <div class="left-arrow">&lt;</div>
+          </div>
+
+          <div class="button-number"></div>
+
+          <div class="button button-right">
+            <div class="right-arrow">&gt;</div>
+          </div>
+
+          <div class="button button-double-right">
+            <div class="right-arrow">&gt;&gt;</div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div class="overlay">
+      <div class="popup" id="animalPopup">
+        <div class="popup-content">
+          <div class="popup-image-wrapper">
+            <img src="./images/pets-jennifer.png" alt="" />
+          </div>
+          <div class="popup-full-info">
+            <h2 class="popup-title">Jennifer</h2>
+            <h3 class="popup-subtitle">Animal subtitle</h3>
+            <p class="popup-description">
+              Jennifer is a sweet 2 months old Labrador that is patiently
+              waiting to find a new forever home. This girl really enjoys being
+              able to go outside to run and play, but won't hesitate to play up
+              a storm in the house if she has all of her favorite toys.
+            </p>
+            <ul class="popup-list">
+              <li>
+                <div class="popup-list-item">
+                  <div class="popup-list-bold">Age:</div>
+                  <div class="popup-list-text popup-list-age" >2 months</div>
+                </div>
+              </li>
+              <li>
+                <div class="popup-list-item">
+                  <div class="popup-list-bold">Inoculations:</div>
+                  <div class="popup-list-text popup-list-inoculations">2 months</div>
+                </div>
+              </li>
+              <li>
+                <div class="popup-list-item">
+                  <div class="popup-list-bold">Diseases:</div>
+                  <div class="popup-list-text popup-list-diseases">2 months</div>
+                </div>
+              </li>
+              <li>
+                <div class="popup-list-item">
+                  <div class="popup-list-bold">Parasites:</div>
+                  <div class="popup-list-text popup-list-parasites">2 months</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="popup-close">
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z"
+                fill="#292929"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-container">
+      <footer class="footer" id="footer">
+        <section class="footer-contacts">
+          <h3 class="footer-title">For questions and suggestions</h3>
+          <div class="footer-email">
+            <img
+              src="./images/icons/icon-email.svg"
+              alt="Email"
+              width="40"
+              height="32"
+            />
+            <p class="footer-contacts-text">
+              <a href="mailto:your@email.com">email@shelter.com</a>
+            </p>
+          </div>
+          <div class="footer-phone">
+            <img src="./images/icons/icon-phone.svg" alt="Phone" />
+            <p class="footer-contacts-text">
+              <a href="tel:+136745677554">+13 674 567 75 54</a>
+            </p>
+          </div>
+        </section>
+        <section class="footer-contacts-address">
+          <h3 class="footer-title second-title">
+            We are waiting for your visit
+          </h3>
+          <div class="footer-address first-address">
+            <img src="./images/icons/icon-marker.png" alt="Icon marker" />
+            <p class="footer-contacts-text">
+              <a
+                href="https://maps.app.goo.gl/RkDtNtrFevy4p5Li9"
+                target="_blank"
+                >1 Central Street, Boston (entrance from the store)</a
+              >
+            </p>
+          </div>
+          <div class="footer-address">
+            <img src="./images/icons/icon-marker.png" alt="Icon marker" />
+            <p class="footer-contacts-text">
+              <a
+                href="https://maps.app.goo.gl/dK92VuAnMkrTUbNd8"
+                target="_blank"
+                >18 South Park, London</a
+              >
+            </p>
+          </div>
+        </section>
+        <div class="footer-image-wrapper">
+          <img
+            src="./images/footer-puppy.png"
+            alt="Puppy"
+            width="300"
+            height="310"
+            class="footer-image"
+          />
+        </div>
+      </footer>
+    </div>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
